@@ -12,9 +12,7 @@ class HomePage extends StatelessWidget {
         title: const Text("Catelog App"),
       ),
       body: Center(
-        child: Container(
-          child: Text("Welcome $name"),
-        ),
+        child: Text("Welcome $name"),
       ),
       drawer: const Drawer(),
     );
